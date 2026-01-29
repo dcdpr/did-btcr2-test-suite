@@ -1,3 +1,3 @@
-# did:btc1 Test Suite
+# did:btcr2 Test Suite
 
-This repository contains files that can be used to test implementations of the **did:btc1** DID Method on the regtest and signet Bitcoin networks.
+This repository contains files that can be used to test implementations of the **did:btcr2** DID Method on the regtest and signet Bitcoin networks.

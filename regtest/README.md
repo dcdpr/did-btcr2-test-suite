@@ -1,11 +1,11 @@
-# did:btc1 Regtest Test Vectors
+# did:btcr2 Regtest Test Vectors
 
-This folder contains a set of test vectors for **did:btc1** identifiers registered on a local regtest network. The state of that network is contains in the `did-btc1-electrs.polar.zip` folder.
+This folder contains a set of test vectors for **did:btcr2** identifiers registered on a local regtest network. The state of that network is contains in the `did-btcr2-electrs.polar.zip` folder.
 
 ## Connecting to the regtest network
 
-1. First, extract the `did-btc1-electrs.polar.zip` folder somewhere.
-2. Move into the extracted folder: `cd did-btc1-electrs.polar`
+1. First, extract the `did-btcr2-electrs.polar.zip` folder somewhere.
+2. Move into the extracted folder: `cd did-btcr2-electrs.polar`
 3. Start the containers: `docker-compose up`
 4. Verify the network is running with electrs.
   a. Go to `http://localhost:3000/blocks` and a list of json objects representing bitcoin blocks should be returned.
@@ -28,6 +28,10 @@ If you get `curl: (56) Recv failure: Connection reset by peer` or cannot visit l
   ```
 4. Wait 30s or so for it to finish syncing and retry step 4 above.
 
-Alternatively, the zip file can be dragged into the [lighting polar](https://lightningpolar.com/) app, if it is installed. Then the network can be started through the apps interface. However, doing this may drop the electrs part of the docker file. If this happens, view the docker-compose file in the `did-btc1-electrs.polar.zip` folder and copy across into the polar docker compose. Polar networks can be found under `~/.polar/networks`.
+Alternatively, the zip file can be dragged into the [lighting polar](https://lightningpolar.com/) app, if it is installed. Then the network can be started through the apps interface. However, doing this may drop the electrs part of the docker file. If this happens, view the docker-compose file in the `did-btcr2-electrs.polar.zip` folder and copy across into the polar docker compose. Polar networks can be found under `~/.polar/networks`.
 
 You should configure your resolver to query the electrs API at `http://localhost:3000.
+
+## Data
+
+* [k1qgp7vmk76hx8nnjkzym5apyps76ycvf9uggcdyakc0942kccgq5vp0cnnv5l5](/regtest/k1qgp7vmk76hx8nnjkzym5apyps76ycvf9uggcdyakc0942kccgq5vp0cnnv5l5) - adds a 2nd verification method to the DID Document
