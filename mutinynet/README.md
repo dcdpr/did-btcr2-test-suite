@@ -6,4 +6,4 @@ To connect to a public esplora API for this signet network use: `https://mutinyn
 
 ## Data
 
-* [k1q5pua0p3syhn3p3kpvuqkx7sxd9ndv6uffwvuv008n4nq6fdwv22x5q4qfp5h](/mutinynet/k1q5pua0p3syhn3p3kpvuqkx7sxd9ndv6uffwvuv008n4nq6fdwv22x5q4qfp5h) - adds a 3rd SingletonBeacon service to the DID Document
+* TODO
