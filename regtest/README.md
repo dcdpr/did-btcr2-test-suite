@@ -1,6 +1,6 @@
 # did:btcr2 Regtest Test Vectors
 
-This folder contains a set of test vectors for **did:btcr2** identifiers registered on a local regtest network. The state of that network is contains in the `did-btcr2.polar.zip` folder.
+This folder contains a set of test vectors for **did:btcr2** identifiers registered on a local regtest network. The state of that network is contained in the `did-btcr2.polar.zip` folder.
 
 ## Connecting to the regtest network
 
