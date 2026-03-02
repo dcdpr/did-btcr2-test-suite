@@ -17,13 +17,13 @@ If you get `curl: (56) Recv failure: Connection reset by peer` or cannot visit l
 2. Open a new terminal window
 3. Determine the bitcoind container ID: `docker ps | awk -F '  ' '{ print $1, $2 }' | grep 'polar'` (or just `docker ps` and look for the CONTAINER ID of the polarlightning container)
 4. Drop a shell into that bitcoind container: `docker exec -it <CONTAINER_ID> bash`
-5. Once inside the bitcoind container, mine a couple of blocks:
+5. Once inside the bitcoind container, mine 6 blocks:
   ```sh
   bitcoin-cli \
     -regtest \
     -rpcuser=polaruser \
     -rpcpassword=polarpass \
-    generatetoaddress 5 \
+    generatetoaddress 6 \
     $(bitcoin-cli -regtest -rpcuser=polaruser -rpcpassword=polarpass getnewaddress)
   ```
 4. Wait 30s or so for it to finish syncing and retry the verification step (step 4) from above.
@@ -34,4 +34,9 @@ You should configure your resolver to query the electrs API at `http://localhost
 
 ## Data
 
-* [k1/qgpkyr20](/regtest/k1/qgpkyr20) - replaces the first service with a new singleton beacon
+* [k1/qgpr45ch](/regtest/k1/qgpr45ch) - no changes, simplest case
+* [k1/qgpxxm7r](/regtest/k1/qgpxxm7r) - replaces the #initialKey verification method with a new one
+* [k1/qgpzvae5](/regtest/k1/qgpzvae5) - adds a third singleton beacon service called #additionalP2PKH
+* [x1/q2pgxznc](/regtest/x1/q2pgxznc) - adds a second singleton beacon service called #service-1
+* [x1/q2xej2gm](/regtest/x1/q2xej2gm) - no changes, simplest case
+* [x1/qfk62y9t](/regtest/x1/qfk62y9t) - adds a second verification method called #key-1 and replaces authentication with #key-1 
