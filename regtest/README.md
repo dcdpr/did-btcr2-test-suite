@@ -17,7 +17,7 @@ If you get `curl: (56) Recv failure: Connection reset by peer` or cannot visit l
 2. Open a new terminal window
 3. Determine the bitcoind container ID: `docker ps | awk -F '  ' '{ print $1, $2 }' | grep 'polar'` (or just `docker ps` and look for the CONTAINER ID of the polarlightning container)
 4. Drop a shell into that bitcoind container: `docker exec -it <CONTAINER_ID> bash`
-5. Once inside the bitcoind container, mine a couple blocks:
+5. Once inside the bitcoind container, mine a couple of blocks:
   ```sh
   bitcoin-cli \
     -regtest \
