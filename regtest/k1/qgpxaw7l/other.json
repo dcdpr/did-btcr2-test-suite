@@ -1,0 +1,12 @@
+{
+    "genesisKeys": {
+        "secret": "bbb4e94e8a92064951f03ef3dc7c93b4795bdb0441e6fbb7e8f9dfb6cd28760b",
+        "public": "026ebbdf1b413e9aa74c251ea042007d9db4982c469ee1ba714f38714cfd55eca7"
+    },
+    "generatedKeys": {
+        "service-3-additionalP2PKH": {
+            "secret": "a81623bbbe5ba96ff7b1797af2b5b8d3ecc4be42de5c94d50175913969edf30c",
+            "public": "0280dca7bab00cc6b093b3cdb87ad2cbd49b5eca9e9ce69de817c55bfb16c124ba"
+        }
+    }
+}

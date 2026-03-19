@@ -34,9 +34,10 @@ You should configure your resolver to query the electrs API at `http://localhost
 
 ## Data
 
-* [k1/qgpr45ch](/regtest/k1/qgpr45ch) - no changes, simplest case
-* [k1/qgpxxm7r](/regtest/k1/qgpxxm7r) - replaces the #initialKey verification method with a new one
-* [k1/qgpzvae5](/regtest/k1/qgpzvae5) - adds a third singleton beacon service called #additionalP2PKH
-* [x1/q2pgxznc](/regtest/x1/q2pgxznc) - adds a second singleton beacon service called #service-1
-* [x1/q2xej2gm](/regtest/x1/q2xej2gm) - no changes, simplest case
-* [x1/qfk62y9t](/regtest/x1/qfk62y9t) - adds a second verification method called #key-1 and replaces authentication with #key-1 
+* [k1/qgp4dqdf](/regtest/k1/qgp4dqdf) - no changes, simplest case
+* [k1/qgpvduym](/regtest/k1/qgpvduym) - replaces the #initialP2PKH SingletonBeacon serviceEndpoint
+* [k1/qgpxaw7l](/regtest/k1/qgpxaw7l) - adds #additionalP2PKH SingletonBeacon service
+
+* [x1/q2gralds](/regtest/x1/q2gralds) - no changes, simplest case
+* [x1/q2ye08nh](/regtest/x1/q2ye08nh) - adds #service-1 SingletonBeacon service
+* [x1/qtwrtmvq](/regtest/x1/qtwrtmvq) - adds #key-1 verificationMethod and replaces authentication with #key-1 

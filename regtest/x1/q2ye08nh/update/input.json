@@ -1,0 +1,51 @@
+{
+    "sourceDocument": {
+        "id": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw",
+        "@context": [
+            "https://www.w3.org/TR/did-1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#key-0",
+                "type": "Multikey",
+                "controller": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw",
+                "publicKeyMultibase": "zQ3shhRjohFaCGSn39JXRfCuXgfdVk1RmC1xCZp2Jj4Ld2Urh"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#key-0"
+        ],
+        "assertionMethod": [
+            "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#key-0"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#key-0"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#key-0"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#service-0",
+                "serviceEndpoint": "bitcoin:mv4fB2ePMFMv4BwUFPXEpcsK1hYtSZmVZd",
+                "type": "SingletonBeacon"
+            }
+        ]
+    },
+    "patches": [
+        {
+            "op": "add",
+            "path": "/service/1",
+            "value": {
+                "id": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#service-1",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:bcrt1qwd4ck6tpau604feq3wm52cahca93dlw9w6pymc"
+            }
+        }
+    ],
+    "sourceVersionId": 1,
+    "verificationMethodId": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#key-0",
+    "beaconId": "did:btcr2:x1q2ye08nhc7ly4tysfpju4z87ntwzxhkzdv8mutr6xmr5ey2tkzzxgw7d2vw#service-0",
+    "signingMaterial": "f037f3609cf857dd7cb6da8541444ab97b928bc5e77eddc479ae34aa4157bdc6"
+}
