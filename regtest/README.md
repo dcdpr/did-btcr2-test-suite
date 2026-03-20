@@ -34,10 +34,10 @@ You should configure your resolver to query the electrs API at `http://localhost
 
 ## Data
 
-* [k1/qgp4dqdf](/regtest/k1/qgp4dqdf) - no changes, simplest case
-* [k1/qgpvduym](/regtest/k1/qgpvduym) - replaces the #initialP2PKH SingletonBeacon serviceEndpoint
-* [k1/qgpxaw7l](/regtest/k1/qgpxaw7l) - adds #additionalP2PKH SingletonBeacon service
+* [/regtest/k1/qgpakaw4](/regtest/k1/qgpakaw4) - no changes, simplest case
+* [/regtest/k1/qgppexmy](/regtest/k1/qgppexmy) - replaces the #initialP2PKH SingletonBeacon serviceEndpoint
+* [/regtest/k1/qgpy0hmm](/regtest/k1/qgpy0hmm) - adds #additionalP2PKH SingletonBeacon service
 
-* [x1/q2gralds](/regtest/x1/q2gralds) - no changes, simplest case
-* [x1/q2ye08nh](/regtest/x1/q2ye08nh) - adds #service-1 SingletonBeacon service
-* [x1/qtwrtmvq](/regtest/x1/qtwrtmvq) - adds #key-1 verificationMethod and replaces authentication with #key-1 
+* [/regtest/x1/q2fz9mz6](/regtest/x1/q2fz9mz6) - no changes, simplest case
+* [/regtest/x1/q26jeds9](/regtest/x1/q26jeds9) - adds #service-1 SingletonBeacon service
+* [/regtest/x1/qfl7se8f](/regtest/x1/qfl7se8f) - adds #key-1 verificationMethod and replaces authentication with #key-1 
