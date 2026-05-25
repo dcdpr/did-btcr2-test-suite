@@ -1,0 +1,52 @@
+{
+    "didDocument": {
+        "id": "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj",
+                "publicKeyMultibase": "zQ3shtcx3ZF59bzY136KrfZF1sMuCpVcg6H4ND8PZHFmDAjnP"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:mqn8U2Y3yQU5jSeZYFnkZWeUWDW79DXYPJ"
+            },
+            {
+                "id": "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qwz8l6p40kknptvfmxm6e0edmndvsh3jkm63nrl"
+            },
+            {
+                "id": "did:btcr2:k1q5puld7yg8awp3z5exj2atwz939rqlgk0r3s5fuq76t3j3kg76nmjkqaz5hzj#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1p7t460ecpvtjksqnx43tkft54lcvku8vadmke3aptaz292q3tlx0qu28hq9"
+            }
+        ]
+    },
+    "didDocumentMetadata": {
+        "versionId": 1,
+        "created": null,
+        "updated": null,
+        "deactivated": false
+    }
+}

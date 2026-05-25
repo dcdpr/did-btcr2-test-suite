@@ -1,0 +1,66 @@
+{
+    "sourceDocument": {
+        "id": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf",
+                "publicKeyMultibase": "zQ3shZouEqN8uY7rsR4FjBHA9of5mxAwNJuUKo3zZuu23qWW4"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:msGhQRkoBAKR7rCddeKnhP97esmo8y9gg7"
+            },
+            {
+                "id": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qsrh5r8g9uzf2ve7n9ehnxy52ftvtam6l4ehqtj"
+            },
+            {
+                "id": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1pfxnfgns8uvqrezwckspm8nm3n4c36kv36mru43y7ks6alw8axrtsc9dwu6"
+            },
+            {
+                "id": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#cohortBeacon",
+                "type": "CASBeacon",
+                "serviceEndpoint": "bitcoin:tb1qt4zug3aye78fmcz6ah02rdyg87q4fhma03ggf5"
+            }
+        ]
+    },
+    "patches": [
+        {
+            "op": "add",
+            "path": "/service/4",
+            "value": {
+                "id": "#dwn",
+                "type": "DecentralizedWebNode",
+                "serviceEndpoint": "http://example.com/dwn"
+            }
+        }
+    ],
+    "sourceVersionId": 1,
+    "verificationMethodId": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#initialKey",
+    "beaconId": "did:btcr2:x1q550pp4es065j473wh4hhwu5p8quduwxfg8t2v8knff27qhn98wrjl3wscf#cohortBeacon",
+    "signingMaterial": "096fa5a528cc98c617d7fae807b3c1b0563a42cf6151c6bb9b1c09e3a55fdfe7"
+}
