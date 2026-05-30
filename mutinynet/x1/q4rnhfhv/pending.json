@@ -1,0 +1,10 @@
+{
+    "note": "Batch C work pending: these updates need their off-chain payload (CAS) or aggregation (SMT) plus the on-chain anchor broadcast before the vector is fully resolvable against the chain.",
+    "actions": [
+        {
+            "stepNum": 1,
+            "delivery": "cas",
+            "beaconId": "did:btcr2:x1q4rnhfhvv076pd2wzftkrz7426wky2h3a95aatwne3ujsa30pcjhyzmlyn7#cohortBeacon"
+        }
+    ]
+}

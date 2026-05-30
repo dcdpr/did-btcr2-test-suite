@@ -1,0 +1,7 @@
+{
+    "scenarioId": "01-k1-base",
+    "genesisKeys": {
+        "secret": "972229eab26b5c3ff715aebcd408e271407ca9d5edba8856d06872bababea8f0",
+        "public": "03b40f7b5577c103a99b51766db70dd203e60221119e61a43a310c84a467ea450b"
+    }
+}

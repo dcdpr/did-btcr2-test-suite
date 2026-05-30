@@ -1,0 +1,36 @@
+{
+    "didDocument": {
+        "id": "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje",
+                "publicKeyMultibase": "zQ3shWCZHmBRwsgMd1LcL2mXxezjB16ezhfBFuYBnLUyRrKF2"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:x1qhz4ld6el4lgsq8pzc76v98v3nge4gn90s9p4sngf559pv97xa4vga03uje#initialKey"
+        ],
+        "service": []
+    },
+    "didDocumentMetadata": {
+        "versionId": 1,
+        "created": null,
+        "updated": null,
+        "deactivated": false
+    }
+}
