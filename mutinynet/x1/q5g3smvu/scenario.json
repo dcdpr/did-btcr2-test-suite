@@ -4,7 +4,8 @@
     "network": "mutinynet",
     "idType": "EXTERNAL",
     "keys": {
-        "source": "generate"
+        "source": "fixed",
+        "secretHex": "534d3232ba604854ef04684784a4297e6a60b8b2a961eddf77c1cca447ce495a"
     },
     "beacons": [
         {

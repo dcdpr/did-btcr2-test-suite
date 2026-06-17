@@ -4,7 +4,11 @@
     "network": "mutinynet",
     "idType": "EXTERNAL",
     "keys": {
-        "source": "generate"
+        "source": "fixed",
+        "secretHex": "bce89bbcf3df2e699893bf152a1f7180bdc31f849dfb0bec2e8d0113a8253878"
+    },
+    "delivery": {
+        "genesis": "cas"
     },
     "beacons": [],
     "updates": []

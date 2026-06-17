@@ -7,6 +7,9 @@
         "source": "fixed",
         "secretHex": "2fd3a72ea746735983e874320b30401287a7576585cc24621d9aeb8c08df7e9c"
     },
+    "delivery": {
+        "genesis": "cas"
+    },
     "beacons": [
         {
             "kind": "P2PKH",
