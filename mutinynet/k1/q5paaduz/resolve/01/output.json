@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "NOT_FOUND",
+        "errorMessage": "Version 3 of the DID does not exist: the history ends at version 2."
+    }
+}

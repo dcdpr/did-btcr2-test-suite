@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n19-k1-invalid-update-source-hash",
+    "genesisKeys": {
+        "secret": "2c08edba97a9fa61e9a6743e6bb2a377833450ad1c6c372f223d404bcfd2db87",
+        "public": "03c64d07bb4832bb37d7a613c903312c30b7612c5ba14e0f6fa7227c6bb1ab9607"
+    }
+}

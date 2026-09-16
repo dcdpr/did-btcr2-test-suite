@@ -1,0 +1,50 @@
+{
+    "didResolutionMetadata": {
+        "contentType": "application/did"
+    },
+    "didDocument": {
+        "id": "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a",
+                "publicKeyMultibase": "zQ3shudVwAf4SaAkV6dXkZPZqoC3puFQrZjoJrNfehg9mQ6pT"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qsfyw0hs8mcl66gcscar3tgk6vdah3r39qf79q6"
+            },
+            {
+                "id": "did:btcr2:k1q5paaduz7faxp708a0r7tppmcx96naa6g3k4rsny9wnujq804mqhdrqtljr5a#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1py6claj7mez9jhft9ygua5dkez6x488e9gd30sm4xe5w2sqmsmutsth2ydz"
+            }
+        ]
+    },
+    "didDocumentMetadata": {
+        "versionId": "2",
+        "confirmations": 42,
+        "updated": "2026-09-16T22:43:52Z",
+        "deactivated": false
+    }
+}

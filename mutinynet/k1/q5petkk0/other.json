@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n11-k1-invalid-update-context-order",
+    "genesisKeys": {
+        "secret": "b1d6bdea43e3809f9dae9f266d2c4740380d206df0efc98419fe69443b1c4c1e",
+        "public": "0395dacf4b04e7eeec59f13b5cbf897ee6fecbeceeed651348bdacaf7d6f94613e"
+    }
+}

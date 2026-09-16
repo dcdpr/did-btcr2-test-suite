@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n26-k1-invalid-update-expires-before-mediantime",
+    "genesisKeys": {
+        "secret": "2c60276587c9726319454564c1a600968da227188c9a0420ed02eb32b8c60462",
+        "public": "025124f0e38e83a9fd84630155e4ce8eb6b538ac0e7979c10f40d25e31c023cb3a"
+    }
+}

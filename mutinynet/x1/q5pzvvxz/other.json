@@ -1,0 +1,51 @@
+{
+    "scenarioId": "19-x1-relative-ids",
+    "genesisKeys": {
+        "secret": "eb269c1a8101f8d6bfece45f559178ad12ebc96eadec0d4112198f70c20568b4",
+        "public": "03277caf08c02a689c09b8a40269d4f68aa2300ccaa3b7d3917c66bcf1c75ccfb6"
+    },
+    "genesisDocument": {
+        "id": "did:btcr2:_",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:_",
+                "publicKeyMultibase": "zQ3shhJFJGCryzd77QzZTG4thSzZzaAxy89pnrAtaWShsWMx9"
+            }
+        ],
+        "authentication": [
+            "#initialKey"
+        ],
+        "assertionMethod": [
+            "#initialKey"
+        ],
+        "capabilityInvocation": [
+            "#initialKey"
+        ],
+        "capabilityDelegation": [
+            "#initialKey"
+        ],
+        "service": [
+            {
+                "id": "#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:mno1sffwEQoxKsW9MR7vYf9MwvXHf9AxNZ"
+            },
+            {
+                "id": "#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qflfgvgppj0k0m7d4vrfc4kszmettjxusp8gqsw"
+            },
+            {
+                "id": "#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1pr5a9w60epj67nhuc7k7lw84hat07n27tuwqelejece83grmwgcgqlemscs"
+            }
+        ]
+    }
+}
