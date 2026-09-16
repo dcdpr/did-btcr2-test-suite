@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n24-k1-invalid-update-patch-invalid-document",
+    "genesisKeys": {
+        "secret": "acbd630c1d78929e7f5ea195d6ae915382ee7cca7e5256da343f27c74370ab41",
+        "public": "020889af4fac81f1c488fb1bd9d7f2ac44b95408f926618193ab11e344fcdb60ae"
+    }
+}

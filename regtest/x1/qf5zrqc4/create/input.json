@@ -1,0 +1,6 @@
+{
+    "idType": "EXTERNAL",
+    "version": 1,
+    "network": "regtest",
+    "genesisBytes": "682183154e77efea937fc38b3bc41b659fb2ba297e4670e39954050ece81d19f"
+}

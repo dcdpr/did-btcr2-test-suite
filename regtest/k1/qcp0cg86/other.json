@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n03-k1-invalid-did-network-nibble",
+    "genesisKeys": {
+        "secret": "b132d8d4515f9af9c0d1027c3425d0d500d6edd3093eb053416af25eebb115a7",
+        "public": "02fc20fad1c1a739a859af1fe33db6f0ffd62e1c858507a7872f993c8e0c0298a0"
+    }
+}

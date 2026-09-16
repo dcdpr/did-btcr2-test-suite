@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n01-k1-invalid-did-checksum",
+    "genesisKeys": {
+        "secret": "0d65653750bdd77c9f31f93d298a3368e2a1c89a11c3c9122fe1981a891d6ef4",
+        "public": "02fb90f87610397b0e3f13d748e8ded208772e3c6173a6af724535c03959239097"
+    }
+}

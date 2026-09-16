@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n27-k1-invalid-update-expires-before-created",
+    "genesisKeys": {
+        "secret": "53ccc4753b5968cfd1698cb30f02b2f921c01e3e2e0c5c5647310c51bd470148",
+        "public": "0212e6b5bd67fe9e6f8c373fa0411796cb9a492e23c67aaa7b4c2dbc41bfe9f89a"
+    }
+}

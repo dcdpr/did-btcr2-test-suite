@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n13-k1-invalid-update-capability-action",
+    "genesisKeys": {
+        "secret": "099773c5d46554572deef550875a33258c39641108f54ee6417d55b0a65a3fed",
+        "public": "029a124ef1f9f41ceb5d77ca6a6c2f31d7e413aee3c68e3d47071036cf174fbdb8"
+    }
+}

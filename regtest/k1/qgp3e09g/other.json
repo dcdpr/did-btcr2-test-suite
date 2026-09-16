@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n20-k1-invalid-update-target-hash",
+    "genesisKeys": {
+        "secret": "e2b2cea7a332aa883cd6f650a63d9ead67be29716b708237769a87a9bf267626",
+        "public": "031cbca88ede4d54c18d817141e5b247daa9ea66f8958153f4f9784419e12063de"
+    }
+}

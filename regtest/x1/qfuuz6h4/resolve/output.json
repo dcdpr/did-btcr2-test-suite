@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "MISSING_UPDATE_DATA",
+        "errorMessage": "Signed update not found in CAS (hash: 60b43b136e4dcfb0a4f4c9482d821beccb86e6c5d551583a80f17d2990e773a1)."
+    }
+}
