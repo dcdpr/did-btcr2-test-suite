@@ -1,0 +1,42 @@
+{
+    "did": "did:btcr2:k1qypxr0l9lwdndqwx8ymdrzkze7c7rkjseedxmk4kqks4jnu3t3cdyhc8dhpf8",
+    "resolutionOptions": {
+        "sidecar": {
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "replace",
+                            "path": "/verificationMethod/0/type",
+                            "value": "JsonWebKey2020"
+                        }
+                    ],
+                    "sourceHash": "Rc9VHSyUWHBOoBbMDmGmhVDSvnlnQi6vt5RlcmUU_-Q",
+                    "targetHash": "TDishI-l1Nx-sjynYXIc6Xf0GEf9fK3EI0n6po4Ms6g",
+                    "targetVersionId": 2,
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:k1qypxr0l9lwdndqwx8ymdrzkze7c7rkjseedxmk4kqks4jnu3t3cdyhc8dhpf8#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ak1qypxr0l9lwdndqwx8ymdrzkze7c7rkjseedxmk4kqks4jnu3t3cdyhc8dhpf8",
+                        "capabilityAction": "Write",
+                        "proofValue": "z4PBYUBKTbzEVcjbKvLMUhmmGo9yveFjaS3vrw8N2xjoq6Z8p1nBbqdWmUksTUWMDtExKXttF3WjdPEYM8swjhCTy"
+                    }
+                }
+            ]
+        }
+    }
+}

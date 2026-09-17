@@ -1,0 +1,39 @@
+{
+    "signedUpdate": {
+        "@context": [
+            "https://w3id.org/json-ld-patch/v1",
+            "https://w3id.org/zcap/v1",
+            "https://w3id.org/security/data-integrity/v2",
+            "https://btcr2.dev/context/v1"
+        ],
+        "patch": [
+            {
+                "op": "add",
+                "path": "/service/3",
+                "value": {
+                    "id": "#dwn",
+                    "type": "DecentralizedWebNode",
+                    "serviceEndpoint": "http://example.com/dwn"
+                }
+            }
+        ],
+        "targetHash": "ksno6BJmfwCQIU_DYc1BAv1wjahrxt5dI30tMwTIiS4",
+        "targetVersionId": 2,
+        "sourceHash": "1MgKbZX-O2Y9I7mGY8LBVKwQqdBNR706RizWcHNA_4I",
+        "proof": {
+            "@context": [
+                "https://w3id.org/json-ld-patch/v1",
+                "https://w3id.org/zcap/v1",
+                "https://w3id.org/security/data-integrity/v2",
+                "https://btcr2.dev/context/v1"
+            ],
+            "cryptosuite": "bip340-jcs-2025",
+            "type": "DataIntegrityProof",
+            "verificationMethod": "did:btcr2:x1q98uadmd2ygyfe48mmsdhj0yjr40ws9h56er49jhr8zsu7lzztdrq2gvxkn#initialKey",
+            "proofPurpose": "capabilityInvocation",
+            "capability": "urn:zcap:root:did%3Abtcr2%3Ax1q98uadmd2ygyfe48mmsdhj0yjr40ws9h56er49jhr8zsu7lzztdrq2gvxkn",
+            "capabilityAction": "Write",
+            "proofValue": "z3ZpAHV7u2cMfhxEqFPzMpPMQwV7v5KTqoPX6rzJS4XUyjh5UfandkX7MdYg59S1xhJCtmq38YHW8oZKG493o8t6o"
+        }
+    }
+}

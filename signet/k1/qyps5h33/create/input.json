@@ -1,0 +1,6 @@
+{
+    "idType": "KEY",
+    "version": 1,
+    "network": "signet",
+    "genesisBytes": "030a5e31188a816a9804bc31ab1f8403aab87fcf0927503ad55bbec1ab5a348c7a"
+}

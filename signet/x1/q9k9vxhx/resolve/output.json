@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID",
+        "errorMessage": "Invalid method-specific id (Bech32m decoding failed: Non-zero padding: 128): did:btcr2:x1q9k9vxhx2p8pskyz8kksszd9u8y5j8qclzhhvewuqw2uvwl6ewqamscgcmj"
+    }
+}

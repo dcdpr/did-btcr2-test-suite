@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n22-k1-invalid-update-patch-missing-path",
+    "genesisKeys": {
+        "secret": "7c3c6f94d0c0df32f3da3f84e79ce02b3c5982bb38ba9d199ff4fabaa910d178",
+        "public": "03f9093303591ac56f17139224370f37d6297b3305c3f83ba4b1dafc8f7a20f9d5"
+    }
+}

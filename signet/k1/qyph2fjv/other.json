@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n25-k1-invalid-update-created-after-block",
+    "genesisKeys": {
+        "secret": "ddef5b805b0b0af2c81f17c9d8fafc69f87237a62bb0aa710e3a1fc7f111f0ba",
+        "public": "0375264c310a86b7a821a16caf867b84096637072e202701173a76baa805a40d6e"
+    }
+}

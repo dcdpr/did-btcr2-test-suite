@@ -1,0 +1,90 @@
+{
+    "did": "did:btcr2:x1q98uadmd2ygyfe48mmsdhj0yjr40ws9h56er49jhr8zsu7lzztdrq2gvxkn",
+    "resolutionOptions": {
+        "sidecar": {
+            "genesisDocument": {
+                "id": "did:btcr2:_",
+                "@context": [
+                    "https://www.w3.org/ns/did/v1.1",
+                    "https://btcr2.dev/context/v1"
+                ],
+                "verificationMethod": [
+                    {
+                        "id": "did:btcr2:_#initialKey",
+                        "type": "Multikey",
+                        "controller": "did:btcr2:_",
+                        "publicKeyMultibase": "zQ3shpxdNZk7sfaz3hT5bRoAwr5qKMDvttegZpniCMZrM5PXs"
+                    }
+                ],
+                "authentication": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "assertionMethod": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityInvocation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityDelegation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "service": [
+                    {
+                        "id": "did:btcr2:_#initialP2PKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:mi9EaabJC7GyM7waWARXJEgoMBNmEKHuVn"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2WPKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1qrnxdraneajlf3zj2lhgh4zlah0a5ydn2lxjrdr"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2TR",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1phl7z60m2mp7ac7kz9czmt82za6as9c5f6x5yd7lxhha83y4lr4es3meh23"
+                    }
+                ]
+            },
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/3",
+                            "value": {
+                                "id": "#dwn",
+                                "type": "DecentralizedWebNode",
+                                "serviceEndpoint": "http://example.com/dwn"
+                            }
+                        }
+                    ],
+                    "targetHash": "ksno6BJmfwCQIU_DYc1BAv1wjahrxt5dI30tMwTIiS4",
+                    "targetVersionId": 2,
+                    "sourceHash": "1MgKbZX-O2Y9I7mGY8LBVKwQqdBNR706RizWcHNA_4I",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:x1q98uadmd2ygyfe48mmsdhj0yjr40ws9h56er49jhr8zsu7lzztdrq2gvxkn#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ax1q98uadmd2ygyfe48mmsdhj0yjr40ws9h56er49jhr8zsu7lzztdrq2gvxkn",
+                        "capabilityAction": "Write",
+                        "proofValue": "z3ZpAHV7u2cMfhxEqFPzMpPMQwV7v5KTqoPX6rzJS4XUyjh5UfandkX7MdYg59S1xhJCtmq38YHW8oZKG493o8t6o"
+                    }
+                }
+            ]
+        }
+    }
+}

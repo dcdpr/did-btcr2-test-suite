@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n17-k1-invalid-update-unknown-method",
+    "genesisKeys": {
+        "secret": "0456eef2cebd371825d4e3ce4afda8b2c4fef3e56be08dde057f03cc29bdd5a1",
+        "public": "03929bc952d2081c3adc56a82a97a61bb073b914ea12f972ee0d00f3150aba8a47"
+    }
+}

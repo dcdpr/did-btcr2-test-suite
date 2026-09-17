@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID_UPDATE",
+        "errorMessage": "Invalid update: @context is not the array the specification pins for a BTCR2 Update"
+    }
+}

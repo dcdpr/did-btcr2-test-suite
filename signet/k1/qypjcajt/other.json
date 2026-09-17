@@ -1,0 +1,7 @@
+{
+    "scenarioId": "23-k1-duplicate-signal",
+    "genesisKeys": {
+        "secret": "81b0e816556110e6f721c20e92f0317df3c5575df45d8d1cfcaabe85f21a8156",
+        "public": "032c764b0ac7c6389f3404653c5b43a31a3c3461af1d3f2fb82a76791489780a4f"
+    }
+}
