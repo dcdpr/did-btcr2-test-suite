@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID",
+        "errorMessage": "Invalid network (reserved): 6"
+    }
+}

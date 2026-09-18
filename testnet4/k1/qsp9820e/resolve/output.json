@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID_UPDATE",
+        "errorMessage": "Invalid update: proof.capability must equal \"urn:zcap:root:did%3Abtcr2%3Ak1qsp9820e6rhygl2hs7a755nt3v0yh9xlkes77p9jttfyp3me5c2ters6t49xh\""
+    }
+}

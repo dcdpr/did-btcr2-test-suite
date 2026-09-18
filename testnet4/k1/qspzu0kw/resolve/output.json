@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID_UPDATE",
+        "errorMessage": "Invalid update: the patch changes the document id (from \"did:btcr2:k1qspzu0kw9ufrz5xh8y36felcd2cch0lgppfdrgjslxynv22syt4ydlg4x5c0z\" to \"did:btcr2:k1qexample\")"
+    }
+}

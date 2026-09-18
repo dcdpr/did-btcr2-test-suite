@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n10-k1-invalid-update-context-member",
+    "genesisKeys": {
+        "secret": "f5a5b960c0e59fd9f2f9c1bb488e6108665ab691c7d56c5aff377603e4ae2b87",
+        "public": "031b3c205c736db53039f0decb158d06e79889b9beebaeca9f010a30d1b49ef816"
+    }
+}
