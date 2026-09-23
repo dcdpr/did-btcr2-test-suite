@@ -1,0 +1,41 @@
+{
+    "did": "did:btcr2:k1qsp622hdjxe7jmme89k8p8dnv5pqepjlg4u9pq6glu7ags6hegf99lqnxr08r",
+    "resolutionOptions": {
+        "sidecar": {
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "remove",
+                            "path": "/service/9"
+                        }
+                    ],
+                    "sourceHash": "LmR1vJ87MNneJkA_aO1SM79s7BqIOjA6IcgfO4H5zd0",
+                    "targetHash": "LmR1vJ87MNneJkA_aO1SM79s7BqIOjA6IcgfO4H5zd0",
+                    "targetVersionId": 2,
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:k1qsp622hdjxe7jmme89k8p8dnv5pqepjlg4u9pq6glu7ags6hegf99lqnxr08r#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ak1qsp622hdjxe7jmme89k8p8dnv5pqepjlg4u9pq6glu7ags6hegf99lqnxr08r",
+                        "capabilityAction": "Write",
+                        "proofValue": "zmtaZ9eYnuyVvha3JiKLVogkDyicLB59RBDUby4pFJF7ZKtkTrJd9VpvmRuXQgyWcWAjzMoBeQ4goxg9pU3tyVjd"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n15-k1-invalid-update-proof-purpose",
+    "genesisKeys": {
+        "secret": "bda942b2437e37d1b6de57003047bc276ef9924693c7f531716d02d58c664ba4",
+        "public": "02f76ba55ffe6078a4f7945c2d5829070d879beddf207b0ac93d02733389e8e212"
+    }
+}

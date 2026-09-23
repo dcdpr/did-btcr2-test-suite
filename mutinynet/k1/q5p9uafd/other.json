@@ -1,0 +1,7 @@
+{
+    "scenarioId": "07-k1-sidecar-deactivate",
+    "genesisKeys": {
+        "secret": "573567bae7cef900a8cff5b4458cfbd26fbb3b0f9e53ea8ddbd905bd38f47ae7",
+        "public": "025e752dff941662b3bfcf9d944f2361f9790311f00241cb2970a9b0d01c873bcd"
+    }
+}

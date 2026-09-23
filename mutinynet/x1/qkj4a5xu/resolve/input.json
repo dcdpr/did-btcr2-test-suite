@@ -1,0 +1,140 @@
+{
+    "did": "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt",
+    "resolutionOptions": {
+        "sidecar": {
+            "genesisDocument": {
+                "id": "did:btcr2:_",
+                "@context": [
+                    "https://www.w3.org/ns/did/v1.1",
+                    "https://btcr2.dev/context/v1"
+                ],
+                "verificationMethod": [
+                    {
+                        "id": "did:btcr2:_#initialKey",
+                        "type": "Multikey",
+                        "controller": "did:btcr2:_",
+                        "publicKeyMultibase": "zQ3shkAnUDgFx2ugAetXxaCrGBaFk3bpYDUyfho3ErujHU2SD"
+                    }
+                ],
+                "authentication": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "assertionMethod": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityInvocation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityDelegation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "service": [
+                    {
+                        "id": "did:btcr2:_#initialP2PKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:n3cShBNiiZAefi7cbToxG4oUZGQTxY15PD"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2WPKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1q7fwgmxypm9pl5st9h544xxvgf23gshqqza3sva"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2TR",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1pmp59nrj90r98fkfjv9jplpc04r0j7wgxgwd9mrgjh70x6s4ppscs23wa55"
+                    }
+                ]
+            },
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/verificationMethod/1",
+                            "value": {
+                                "id": "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt#key-1",
+                                "type": "Multikey",
+                                "controller": "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt",
+                                "publicKeyMultibase": "zQ3shg4QKZLZkbC6UKwZqMKnUz3N53C4Mw8sx2xruGgJcRzY3"
+                            }
+                        },
+                        {
+                            "op": "replace",
+                            "path": "/authentication",
+                            "value": [
+                                "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt#key-1"
+                            ]
+                        },
+                        {
+                            "op": "add",
+                            "path": "/capabilityInvocation/-",
+                            "value": "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt#key-1"
+                        }
+                    ],
+                    "targetHash": "AqqTLmbXeDXkmPkPiDgiYCAmxclknuqYXOVbqvYin5s",
+                    "targetVersionId": 2,
+                    "sourceHash": "7WvxQFft4BSMgKTG6EDH21Rju9GyPdIzmrsJe7hKKc0",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ax1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt",
+                        "capabilityAction": "Write",
+                        "proofValue": "zgeeS2bb8eYJfcFJvgcMccFLXSPyEoUPiqBqtH8PLRH5mgTjuYGS95m1KwhVAeXYzBTu5w66xhzxtTYp46pybFZf"
+                    }
+                },
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/3",
+                            "value": {
+                                "id": "#didcomm",
+                                "type": "DIDCommMessaging",
+                                "serviceEndpoint": "http://example.com/didcomm"
+                            }
+                        }
+                    ],
+                    "targetHash": "Xcb3sWyWyWqw-k9_HE83PY95ubMg0ahn7coRcPL6sO4",
+                    "targetVersionId": 3,
+                    "sourceHash": "AqqTLmbXeDXkmPkPiDgiYCAmxclknuqYXOVbqvYin5s",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:x1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt#key-1",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ax1qkj4a5xu70hrzymaqg47aeupxjuq5p6hsrvdy5hdzthryer2aqp075scyrt",
+                        "capabilityAction": "Write",
+                        "proofValue": "z4MJHuD4RiiRUYozsRFkYmXtApzMuvhmL1BykCHeojzL3NSvRGb69ujEsYpDCeMKN2jDYMFoBR8WL9WbmW59oRxjZ"
+                    }
+                }
+            ]
+        }
+    }
+}

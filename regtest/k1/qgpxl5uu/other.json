@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n21-k1-invalid-update-version-skip",
+    "genesisKeys": {
+        "secret": "6cf06b08fd500f00d647031731cdb0b31734c47635b3131b30dadc60ca217da5",
+        "public": "026fd39ca3408ca543f46044829006845f0a480d7f160308548fd5dbc7a87fc3bc"
+    }
+}

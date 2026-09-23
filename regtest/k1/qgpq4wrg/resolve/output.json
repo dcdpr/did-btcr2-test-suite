@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID_UPDATE",
+        "errorMessage": "Invalid update: proof.created is after the header time of the block that contains the Beacon Signal"
+    }
+}

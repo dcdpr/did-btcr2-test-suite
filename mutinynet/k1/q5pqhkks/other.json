@@ -1,0 +1,7 @@
+{
+    "scenarioId": "02-k1-sidecar-update",
+    "genesisKeys": {
+        "secret": "a7278d11cbf5cbc698d6d9cc45e1bf950da50526c39372cc7ed7ba68bec74409",
+        "public": "020bdad03d4fa461c74b2bd929dbd984e5514486b10d8b6b30cfa58cfcfcbfa786"
+    }
+}

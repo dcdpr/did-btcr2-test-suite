@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "LATE_PUBLISHING_ERROR",
+        "errorMessage": "Invalid duplicate: unsigned update hash does not match historical hash"
+    }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "update": 1,
+        "beaconId": "did:btcr2:k1qyp0nl7q0y52mqmrlej7ghla2t5t3dqgngrphy70y5fa96ep3mywm5su2xxf9#initialP2WPKH",
+        "address": "tb1qdee6qu8j0qldthz8h3x3n2awxa5ve997tyt52k",
+        "txid": "82b09f4a781652f68f1b6b4693113b18271ce2a6a0533a4458ce44ece58840ee",
+        "blockHeight": 322545,
+        "blockHash": "0000000e9043114a3cb46be7c77214a7c239f2833fbcc949867f9b55576654f8",
+        "blockTime": 1789672780,
+        "mediantime": 1789668709,
+        "signalBytes": "260fa6f415f7ae1d2660b16a27eacd0cfff181fa666f5c1d802d88a7847b4dca",
+        "recordedTip": 323394
+    }
+]

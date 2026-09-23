@@ -1,0 +1,50 @@
+{
+    "sourceDocument": {
+        "id": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [],
+        "capabilityInvocation": [
+            {
+                "id": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml",
+                "publicKeyMultibase": "zQ3shrCK7Gxzt9hviGJhvSy82LPCmGwizUN2KhtSiGR3AoPMR"
+            }
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:mwupEXhGyTS8hpZqJXK9k34ZnqyjDVcTpA"
+            },
+            {
+                "id": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qk02dn5eek4p4sx8n6rg2lna8pt4lharxdsknmt"
+            },
+            {
+                "id": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1pmrd8hnle33kcqfuwxgndzqkhc8w9k6zf3hzv8j6y40lwy7nfsjzslq6dmw"
+            }
+        ]
+    },
+    "patches": [
+        {
+            "op": "add",
+            "path": "/service/3",
+            "value": {
+                "id": "#didcomm",
+                "type": "DIDCommMessaging",
+                "serviceEndpoint": "http://example.com/didcomm"
+            }
+        }
+    ],
+    "sourceVersionId": 1,
+    "verificationMethodId": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml#initialKey",
+    "beaconId": "did:btcr2:x1qjmhfkyxuvj5el2wsvkx6cyp8k4luhqxxwt85egq8rlzhke6ys4026ck7ml#initialP2WPKH",
+    "signingMaterial": "570dd87924b8f4312bb5f312310a20b158ea54ff756773cefcc355303f9f9c64"
+}

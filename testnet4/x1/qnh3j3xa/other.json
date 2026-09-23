@@ -1,0 +1,35 @@
+{
+    "scenarioId": "05-x1-no-beacon",
+    "genesisKeys": {
+        "secret": "9110665670a72add5eb9fbe01e11b8174f3a7fb5d726d2efdf7d367431512df9",
+        "public": "02a1d3a6a4eac2970cc25d11cb67505a35bf9ca6acb323059a318cf2519d32afd4"
+    },
+    "genesisDocument": {
+        "id": "did:btcr2:_",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:_#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:_",
+                "publicKeyMultibase": "zQ3shYJVafPyVViZMcJUCdhXDvw7Ar946EPcriJiuDeXzmdZM"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:_#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:_#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:_#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:_#initialKey"
+        ],
+        "service": []
+    }
+}

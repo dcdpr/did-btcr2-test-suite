@@ -1,0 +1,56 @@
+{
+    "sourceDocument": {
+        "id": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4",
+                "publicKeyMultibase": "zQ3shwQEnBwPhghnJ5KmPS6EedouuAKKBPZrX272Tm8mF8w5W"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:moiDcE145ApDoL4kzQpaQZXzM9vhQrvEph"
+            },
+            {
+                "id": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qt8396h7r79c2lmj226h44huhxe6tyd0mjavhr5"
+            },
+            {
+                "id": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1pudmhrsqjkm7ywzgzjm66cknxek4j5sfju8prjfyc9mfajhct2kfqrwgkjn"
+            }
+        ]
+    },
+    "patches": [
+        {
+            "op": "remove",
+            "path": "/service/9"
+        }
+    ],
+    "sourceVersionId": 1,
+    "verificationMethodId": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialKey",
+    "beaconId": "did:btcr2:k1qypljzfnqdv343t0zufeyfphpumav2tmxvzu87pm5jca4ly00gs0n4g0tsvq4#initialP2WPKH",
+    "signingMaterial": "7c3c6f94d0c0df32f3da3f84e79ce02b3c5982bb38ba9d199ff4fabaa910d178"
+}

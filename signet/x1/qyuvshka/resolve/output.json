@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "MISSING_UPDATE_DATA",
+        "errorMessage": "SMT proof required but not in sidecar (root hash: 37a69b51cd35e7dc2fe10578e774d2ff7586b71cd56cd99fde892ecd46ada47a). SMT proofs cannot be fetched from a CAS; provide the proof via options.sidecar.smtProofs."
+    }
+}

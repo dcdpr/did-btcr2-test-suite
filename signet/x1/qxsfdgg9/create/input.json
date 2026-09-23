@@ -1,0 +1,6 @@
+{
+    "idType": "EXTERNAL",
+    "version": 1,
+    "network": "signet",
+    "genesisBytes": "a096a1059506761e90066a6bc976909926a242c31922e868061dc2de0d625ab8"
+}

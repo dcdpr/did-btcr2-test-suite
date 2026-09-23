@@ -1,0 +1,65 @@
+{
+    "didResolutionMetadata": {
+        "contentType": "application/did"
+    },
+    "didDocument": {
+        "id": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3",
+                "publicKeyMultibase": "zQ3shYvpEVcdT2EuZxgqNQdaDpbEm1z9MAfYAWxSpPLyh6QNL"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:mgv1BisFegxL5iHohBgSYMDNkziLPKyPKG"
+            },
+            {
+                "id": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qpa2pkfn3sg8xnf780m0fv8pjy3n3jgynzecpse"
+            },
+            {
+                "id": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1pgs904mry0nxndygyg4a7u3dcjqjr94nwxgf2aqez5ykw7s48ck6qa42kya"
+            },
+            {
+                "id": "did:btcr2:x1q8sxjrauhntq8ff2ad927w6jskweekuays34xycu2fsut005mn77wa4q9z3#cohortBeacon",
+                "type": "SMTBeacon",
+                "serviceEndpoint": "bitcoin:tb1q30rqk3rxh53p3q4l7wqrlzsmy9gv3uh4v5d2ta"
+            },
+            {
+                "id": "#didcomm",
+                "type": "DIDCommMessaging",
+                "serviceEndpoint": "http://example.com/didcomm"
+            }
+        ]
+    },
+    "didDocumentMetadata": {
+        "versionId": "2",
+        "confirmations": 21,
+        "updated": "2026-09-23T14:33:56Z",
+        "deactivated": false
+    }
+}

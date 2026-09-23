@@ -1,0 +1,13 @@
+{
+    "scenarioId": "26-k1-signal-below-current-height",
+    "genesisKeys": {
+        "secret": "55e3c38dc7485f9c03e3ced07634f487cf899b4af635262c3c07dc92758f20db",
+        "public": "0203455a8e7789162b712d282f30f6c564186319394f1055ebad7ed2211b727e2d"
+    },
+    "extraKeys": {
+        "lateBeacon": {
+            "secret": "a0b867b0269d044b169861d8e192aca52b229bc5dda6c6695ae569c1dca2e572",
+            "public": "03db3b4e3ac386111d483673e8ea06dd9ef8a083b4318b44aa0c3e9c65a013b33a"
+        }
+    }
+}

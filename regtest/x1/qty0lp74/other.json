@@ -1,0 +1,64 @@
+{
+    "scenarioId": "n16-x1-invalid-update-unauthorized-method",
+    "genesisKeys": {
+        "secret": "8866f58c813d1416da7ddd2a94bc4164dfebefdcce35d4aa4e2ce03c064b90b8",
+        "public": "033ae92f1bccaaa81b819a534435184ad083ced332d288a2172c0ab29205595fe7"
+    },
+    "extraKeys": {
+        "key-1": {
+            "secret": "6cffb23bc765e494d69b0e9369a0f663ceb5694e578383597c56345caac7a073",
+            "public": "02720f982897281a6bde6a4f3773e0225f3162d8825a5fb24300064aee2e564303"
+        }
+    },
+    "genesisDocument": {
+        "id": "did:btcr2:_",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:_#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:_",
+                "publicKeyMultibase": "zQ3shic5182MJ94xefrtVKmNLEoTtbGE9yAjQCKCoj8Nzeyft"
+            },
+            {
+                "id": "did:btcr2:_#key-1",
+                "type": "Multikey",
+                "controller": "did:btcr2:_",
+                "publicKeyMultibase": "zQ3shV632TbY6tPsFLkGvpN7rHngUQcWkyNT8cXbbFrP6dR8W"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:_#initialKey",
+            "did:btcr2:_#key-1"
+        ],
+        "assertionMethod": [
+            "did:btcr2:_#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:_#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:_#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:_#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:mwijmpcgSiv6m7kPeMnwygGZWksPUHGAzB"
+            },
+            {
+                "id": "did:btcr2:_#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:bcrt1qkx7g63upvsncejwv0cajfktmd78tse7w6s5lyr"
+            },
+            {
+                "id": "did:btcr2:_#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:bcrt1pjfp6p8z0ygye62ychdcay6dwntla5jd4rat59xsjs9d6cse5m4ys5npt0v"
+            }
+        ]
+    }
+}

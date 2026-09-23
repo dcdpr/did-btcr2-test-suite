@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID_UPDATE",
+        "errorMessage": "Invalid update: the patched document does not conform to DID Core: Invalid \"verificationMethod\""
+    }
+}

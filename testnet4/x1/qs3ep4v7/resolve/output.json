@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_SIGNAL_DATA",
+        "errorMessage": "SMT proof verification failed for the signal root 9bfe5e705fc59fc539bcf58c74d0980e77de4b2a1458bd6e9c804159677fa3cd."
+    }
+}

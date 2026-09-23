@@ -1,0 +1,38 @@
+{
+    "didResolutionMetadata": {
+        "contentType": "application/did"
+    },
+    "didDocument": {
+        "id": "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "controller": "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz",
+                "id": "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz#initialKey",
+                "publicKeyMultibase": "zQ3shfXcu3peGmGae15dMmQmEjYnDtgu5XpdoGbVNMPNZpke8",
+                "type": "Multikey"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:x1q5rlsadqkdafrsmpp67y5uvpw277ydjj4sujj8g2489m7dp3n7y0s2nwxlz#initialKey"
+        ],
+        "service": []
+    },
+    "didDocumentMetadata": {
+        "versionId": "1",
+        "confirmations": 0,
+        "deactivated": false
+    }
+}

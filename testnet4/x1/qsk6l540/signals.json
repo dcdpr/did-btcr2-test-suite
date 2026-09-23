@@ -1,0 +1,21 @@
+[
+    {
+        "update": 1,
+        "beaconId": "did:btcr2:x1qsk6l5407kmzdxuy9cu7hsyqjsmlluqfcv94qaazc0l8v7qv2d5027zsr8f#cohortBeacon",
+        "address": "tb1qx3ejjdkjwthsstvxjtmyp6w7m6rvvdqlrx8hjv",
+        "txid": "bea5b45a44889d84447823cc8e037d94651b24bc3bbc296455964001118bbb8e",
+        "blockHeight": 153702,
+        "blockHash": "00000000000000032cd30d3a5098319ee5027fdb323f0f0014ec033415b97024",
+        "blockTime": 1790183153,
+        "mediantime": 1790183153,
+        "signalBytes": "3d3d56bd14def47aadb77b59208e3bc516ff7d9d24fde001c32f5a03e915caf6",
+        "cohort": {
+            "id": "smt-11",
+            "members": [
+                "11a-x1-cas-update-smt-proof",
+                "11b-x1-cas-update-smt-proof-paired"
+            ]
+        },
+        "recordedTip": 153720
+    }
+]

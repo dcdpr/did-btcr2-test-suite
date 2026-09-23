@@ -1,0 +1,46 @@
+{
+    "did": "did:btcr2:k1qsp2x3482yltp0mgjtw0sc7jvpnwm3twq7xc93ljg66vt390hmfzj3qu37euy",
+    "resolutionOptions": {
+        "sidecar": {
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/3",
+                            "value": {
+                                "id": "#didcomm",
+                                "type": "DIDCommMessaging",
+                                "serviceEndpoint": "http://example.com/didcomm"
+                            }
+                        }
+                    ],
+                    "targetHash": "5hEKlVRv5Ct_V7-k4ReFDI57_nLPQDgBup_gsoHR5FQ",
+                    "targetVersionId": 2,
+                    "sourceHash": "HG2reiunS8qGN2CZF7ag8FExGFH_HlxlgucA4MG53jo",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:k1qsp2x3482yltp0mgjtw0sc7jvpnwm3twq7xc93ljg66vt390hmfzj3qu37euy#unknown",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ak1qsp2x3482yltp0mgjtw0sc7jvpnwm3twq7xc93ljg66vt390hmfzj3qu37euy",
+                        "capabilityAction": "Write",
+                        "proofValue": "z4poSDt4jpLaqM7aJtEsRUQ5SDVVs6uJbuQMS66XE8GwEdsHcHAiEyiDgU3Ny8Pd6teJCVkvFnr55vaY49c7LEfy9"
+                    }
+                }
+            ]
+        }
+    }
+}

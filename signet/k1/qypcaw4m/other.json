@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n23-k1-invalid-update-patch-changes-id",
+    "genesisKeys": {
+        "secret": "dc394cffa3cfb325705dc4bc230f5ce9f857bb3325dae6d5002bda32b58b8283",
+        "public": "038ebabb881cebf6ea856da220e5ca4cbb79e93460852b1822437165b65b315e40"
+    }
+}

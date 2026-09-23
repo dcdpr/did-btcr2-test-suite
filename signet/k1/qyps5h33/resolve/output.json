@@ -1,0 +1,8 @@
+{
+    "didDocument": null,
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "error": "INVALID_DID",
+        "errorMessage": "Invalid method-specific id (Bech32m decoding failed: Invalid checksum in k1qyps5h33rz9gz65cqj7rr2clssp64wrleuyjw5p664dmasdttg6gc7ss6fzzq: expected \"s6fzz9\"): did:btcr2:k1qyps5h33rz9gz65cqj7rr2clssp64wrleuyjw5p664dmasdttg6gc7ss6fzzq"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "scenarioId": "10a-x1-sidecar-update-cas-announcement",
+    "genesisKeys": {
+        "secret": "f96de3c4f63b8ca682e85f5f0c6cd3d3f90e37ac7a26c21efb4291848978e87f",
+        "public": "03f79b06b7d8ddcfb52c0f05c22736586272bb35b74ee2dfe414ed00afd6b8e39d"
+    },
+    "genesisDocument": {
+        "id": "did:btcr2:_",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:_#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:_",
+                "publicKeyMultibase": "zQ3shwJewAQrAnqreifp2GppjfekNRvhA1Go6dRnqVDUV1UdA"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:_#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:_#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:_#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:_#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:_#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:mpsmpfePWhiBAzRHJoBXL4d8nwxw2mrZwp"
+            },
+            {
+                "id": "did:btcr2:_#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1qv65jqg2u4323tyrx4e68hfq29vslhcsdcm8jrw"
+            },
+            {
+                "id": "did:btcr2:_#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:tb1pfssclrp3d9vcm6kwvf6hc7ssc06st3pa6xhtnn5tllkvvyfscx8qvjk9jp"
+            },
+            {
+                "id": "did:btcr2:_#cohortBeacon",
+                "type": "CASBeacon",
+                "serviceEndpoint": "bitcoin:tb1qmrfrnf4n3uktqkugtn5awpkfrsx53njjjgjh5x"
+            }
+        ]
+    }
+}

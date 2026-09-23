@@ -1,0 +1,6 @@
+{
+    "idType": "EXTERNAL",
+    "version": 1,
+    "network": "testnet4",
+    "genesisBytes": "ac3a72d3928a7cb589aea7521650b268e7a9cec7be22b18ea2dc18413f11ed7c"
+}

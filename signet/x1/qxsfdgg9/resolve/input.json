@@ -1,0 +1,18 @@
+{
+    "did": "did:btcr2:x1qxsfdgg9j5r8v85sqe4xhjtkjzvjdgjzcvvj96rgqcwu9hsdvfdtsk96aah",
+    "resolutionOptions": {
+        "sidecar": {
+            "smtProofs": [
+                {
+                    "id": "yzId_c4qg_FMDFlkZwHo0NyxVQCmlXnW_1KGo9OexNQ",
+                    "collapsed": "f_________________________________________8",
+                    "hashes": [
+                        "gffWq2GYlSOIRXAoXGvkMEDTaInNTJ4a-ADoMLY-4mY"
+                    ],
+                    "nonce": "tys79w2wYzxy_fyrm1Z4Bbh0C-7rNyBYR5rl5Je7b-M",
+                    "updateId": "Iq_JWq5jcPaykZMexp7PIxBCOFGARguXQBptYxamuBU"
+                }
+            ]
+        }
+    }
+}

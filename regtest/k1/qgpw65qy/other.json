@@ -1,0 +1,7 @@
+{
+    "scenarioId": "n14-k1-invalid-update-capability-encoding",
+    "genesisKeys": {
+        "secret": "670665f4b643033066c2448998984e9aa7490f59863d6e0e3b1de87e28ee7022",
+        "public": "02ed5004f2202c9355aaab7d9110ab7652e5ed103a430110d8581d14b9191b0374"
+    }
+}

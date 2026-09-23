@@ -1,0 +1,68 @@
+{
+    "did": "did:btcr2:x1qh2etls95sweswwnfm5724pmvvra5uszmt5lshsv30hvzyp2ued5w9ajeus",
+    "resolutionOptions": {
+        "sidecar": {
+            "genesisDocument": {
+                "id": "did:btcr2:_",
+                "@context": [
+                    "https://www.w3.org/ns/did/v1.1",
+                    "https://btcr2.dev/context/v1"
+                ],
+                "verificationMethod": [
+                    {
+                        "id": "did:btcr2:_#initialKey",
+                        "type": "Multikey",
+                        "controller": "did:btcr2:_",
+                        "publicKeyMultibase": "zQ3shivJ2mfAerdpFnbfibabuuUF7DoeXj8LDPDiRC6Xtcbwz"
+                    }
+                ],
+                "authentication": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "assertionMethod": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityInvocation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityDelegation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "service": [
+                    {
+                        "id": "did:btcr2:_#initialP2PKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:n2f7iixMjewpK7yP2hwk1U6StcpYQd95LP"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2WPKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1quljavjq40vqg32gczencdajgmkhz2jn3ydpf2q"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2TR",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1ps3c6hyn2u0wpk3d6ullyqpjvg4rcw4mushra50yr7fkdqxa46dtqwymu7z"
+                    },
+                    {
+                        "id": "did:btcr2:_#cohortBeacon",
+                        "type": "SMTBeacon",
+                        "serviceEndpoint": "bitcoin:tb1qvmfyta8vyxs4gadxu5pqqwlztsp6df44rpqk5h"
+                    }
+                ]
+            },
+            "smtProofs": [
+                {
+                    "id": "89s4xA4b7yE2Ed-VNqbuyHzN_4JXJCJP9oKNW6GllBQ",
+                    "collapsed": "Hf________________________________________8",
+                    "hashes": [
+                        "Eec1oyJh1EPLKrBT09EvprIX3yBnySYTRcrBOlN2qkw",
+                        "94jV_6SkYImKUI101Q4Zt3pNIxKQmDluiWqLUeaJ0f4",
+                        "8LCbgGLzFC8fcLHrsYmVgW78yuhzaW-FNaU56HRuM_U",
+                        "U6O3gbuaUAcYH3s5JX3JzeNcw_kW5QgE-eDMBnwLyHU"
+                    ]
+                }
+            ]
+        }
+    }
+}

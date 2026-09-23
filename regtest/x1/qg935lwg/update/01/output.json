@@ -1,0 +1,52 @@
+{
+    "signedUpdate": {
+        "@context": [
+            "https://w3id.org/json-ld-patch/v1",
+            "https://w3id.org/zcap/v1",
+            "https://w3id.org/security/data-integrity/v2",
+            "https://btcr2.dev/context/v1"
+        ],
+        "patch": [
+            {
+                "op": "add",
+                "path": "/verificationMethod/1",
+                "value": {
+                    "id": "did:btcr2:x1qg935lwg9dl37eg227u8dzrqe4sng797ycrjtdu6kt9nqcq2hjzd5wdhgz6#key-1",
+                    "type": "Multikey",
+                    "controller": "did:btcr2:x1qg935lwg9dl37eg227u8dzrqe4sng797ycrjtdu6kt9nqcq2hjzd5wdhgz6",
+                    "publicKeyMultibase": "zQ3shkY2F7tRQt8bpgCZQ2gvCCR6SiSaTNeWhKkYtCiwZN67N"
+                }
+            },
+            {
+                "op": "replace",
+                "path": "/authentication",
+                "value": [
+                    "did:btcr2:x1qg935lwg9dl37eg227u8dzrqe4sng797ycrjtdu6kt9nqcq2hjzd5wdhgz6#key-1"
+                ]
+            },
+            {
+                "op": "add",
+                "path": "/capabilityInvocation/-",
+                "value": "did:btcr2:x1qg935lwg9dl37eg227u8dzrqe4sng797ycrjtdu6kt9nqcq2hjzd5wdhgz6#key-1"
+            }
+        ],
+        "targetHash": "1ms6vvpEIT5-52t8gRvscuY81zw40dq9Ks-uafjpz00",
+        "targetVersionId": 2,
+        "sourceHash": "kctMDzivt5x8ECeZ1mtDBnLMB_Xb-4SARvKcMh0oBoI",
+        "proof": {
+            "@context": [
+                "https://w3id.org/json-ld-patch/v1",
+                "https://w3id.org/zcap/v1",
+                "https://w3id.org/security/data-integrity/v2",
+                "https://btcr2.dev/context/v1"
+            ],
+            "cryptosuite": "bip340-jcs-2025",
+            "type": "DataIntegrityProof",
+            "verificationMethod": "did:btcr2:x1qg935lwg9dl37eg227u8dzrqe4sng797ycrjtdu6kt9nqcq2hjzd5wdhgz6#initialKey",
+            "proofPurpose": "capabilityInvocation",
+            "capability": "urn:zcap:root:did%3Abtcr2%3Ax1qg935lwg9dl37eg227u8dzrqe4sng797ycrjtdu6kt9nqcq2hjzd5wdhgz6",
+            "capabilityAction": "Write",
+            "proofValue": "zNSsqoJ5rzf5xq5EeNkfxP6YKJ98c8rDvXxsFSEUrrSSwNxujCmPfqhWTudHC14iGPxASmKaFRQ8gBqHcXYzvPu2"
+        }
+    }
+}

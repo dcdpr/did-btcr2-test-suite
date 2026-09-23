@@ -1,0 +1,46 @@
+{
+    "did": "did:btcr2:k1q5pduhpu3juz2zuqf3r7wpjv5wqs0wa3q07htczmlczyy762kv9epgcvscp97",
+    "resolutionOptions": {
+        "sidecar": {
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/3",
+                            "value": {
+                                "id": "#didcomm",
+                                "type": "DIDCommMessaging",
+                                "serviceEndpoint": "http://example.com/didcomm"
+                            }
+                        }
+                    ],
+                    "targetHash": "Zd1AynaAaJoK-DkuqMoLID8Q-UlIUkKnU_MILTdyzGc",
+                    "targetVersionId": 2,
+                    "sourceHash": "eNUXgHOqxpo4jrxLl6qbC6W0No83nyInImKKJCwF7Xs",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:k1q5pduhpu3juz2zuqf3r7wpjv5wqs0wa3q07htczmlczyy762kv9epgcvscp97#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ak1q5pduhpu3juz2zuqf3r7wpjv5wqs0wa3q07htczmlczyy762kv9epgcvscp97",
+                        "capabilityAction": "Write",
+                        "proofValue": "z3FXnvPLDZYbG31XCRvoszNuBmUqM8qRDLtSriP1PsHxZQxiwXyFdsajBiBaUWk4Qg7161CW5Kq8ZyFbXWvydHs11"
+                    }
+                }
+            ]
+        }
+    }
+}

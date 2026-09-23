@@ -1,0 +1,127 @@
+{
+    "did": "did:btcr2:x1qk58te4eu8lewrks6zmaa0uux2af9hwkpem8gad7twe3v50ff38julf2tj5",
+    "resolutionOptions": {
+        "sidecar": {
+            "genesisDocument": {
+                "id": "did:btcr2:_",
+                "@context": [
+                    "https://www.w3.org/ns/did/v1.1",
+                    "https://btcr2.dev/context/v1"
+                ],
+                "verificationMethod": [
+                    {
+                        "id": "did:btcr2:_#initialKey",
+                        "type": "Multikey",
+                        "controller": "did:btcr2:_",
+                        "publicKeyMultibase": "zQ3shgbN1qKCXbic8ZfgmoCqy9rFL4gQFyZ4uqb5DXTEfnTgj"
+                    }
+                ],
+                "authentication": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "assertionMethod": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityInvocation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityDelegation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "service": [
+                    {
+                        "id": "did:btcr2:_#initialP2PKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:mpCRedyzHeQCa4Z7DSprJdSpDgKX49uTtd"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2WPKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1qtuupqswftvyat3yu8advx53d67wp26ce8h7s6t"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2TR",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1pljmm0ms0ns2eq8sahz3wdnh7yhnhskvyz7lcucfgna6wfc2pgfhs57mv48"
+                    }
+                ]
+            },
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/3",
+                            "value": {
+                                "id": "#newBeacon",
+                                "type": "SingletonBeacon",
+                                "serviceEndpoint": "bitcoin:tb1qpugdfd6hj42vqy8w43uweg4pcw73va4he6cdrc"
+                            }
+                        }
+                    ],
+                    "targetHash": "Ix7zYI2s-wZ29w5CRYVP2mMxfp8K2LdWqVHTMCachZo",
+                    "targetVersionId": 2,
+                    "sourceHash": "ViCqHAVQJgKFPa8zfeiym_ZEi20sv51MMl-lLWzyoeM",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:x1qk58te4eu8lewrks6zmaa0uux2af9hwkpem8gad7twe3v50ff38julf2tj5#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ax1qk58te4eu8lewrks6zmaa0uux2af9hwkpem8gad7twe3v50ff38julf2tj5",
+                        "capabilityAction": "Write",
+                        "proofValue": "z4DdZByEhTzPxwNMskJRtS849UBZkpEY4ovSKKSnm8mAyc429a5CdfrsZjoUuLTcmUfts9kFmKRXNCwXz5eSnBWcx"
+                    }
+                },
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/4",
+                            "value": {
+                                "id": "#dwn",
+                                "type": "DecentralizedWebNode",
+                                "serviceEndpoint": "http://example.com/dwn"
+                            }
+                        }
+                    ],
+                    "targetHash": "IklfZCuZMarJxBcVKjtvFNv7UjCj8bEMNp0GM9aLjeI",
+                    "targetVersionId": 3,
+                    "sourceHash": "Ix7zYI2s-wZ29w5CRYVP2mMxfp8K2LdWqVHTMCachZo",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:x1qk58te4eu8lewrks6zmaa0uux2af9hwkpem8gad7twe3v50ff38julf2tj5#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ax1qk58te4eu8lewrks6zmaa0uux2af9hwkpem8gad7twe3v50ff38julf2tj5",
+                        "capabilityAction": "Write",
+                        "proofValue": "zkYzq1M4yUiqUDzAYCY5PN4ns3vW8xBVa94Lij1gs8nUMWeMw1Ni7Nj6DXNabnwH34VhdkZDHpjpeGAaYbGCyjzK"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "scenarioId": "20-k1-cas-update",
+    "genesisKeys": {
+        "secret": "2e47afd2caa73053ffa2aa78c4570b873a03c0c09484df7e58539b074ba65b0d",
+        "public": "0371de911702aed031ce269b4754bf703cd4a336645c8b214370c7d20dbf02dfa0"
+    }
+}

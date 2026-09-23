@@ -1,0 +1,7 @@
+{
+    "scenarioId": "21-k1-deactivate-then-update",
+    "genesisKeys": {
+        "secret": "a621502b3aaa04d2581c87c290bd5769edb1669a080630a23c29d4f08268fe0c",
+        "public": "028dead3ab8086c79332e17594778d42d063d55e04dfb96b0c6d8f38b2866d8d7d"
+    }
+}

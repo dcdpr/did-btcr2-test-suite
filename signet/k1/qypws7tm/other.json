@@ -1,0 +1,7 @@
+{
+    "scenarioId": "24-k1-removed-beacon-signal",
+    "genesisKeys": {
+        "secret": "519dd05b8eb1a592523c22332f71f3bbc9f5ba3027de4473238e7d6b7ce9cc84",
+        "public": "02e8797ba4a370c56283cb1ba2574c78dc872e3cacf39ac68decabb2ed0b7cf6bc"
+    }
+}

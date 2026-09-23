@@ -1,0 +1,106 @@
+{
+    "did": "did:btcr2:x1qxqfmajnpsh6elpm9wt6pjqvl55gdrnzg5yvn5rftd7rghm28j8dyrt2y4k",
+    "resolutionOptions": {
+        "sidecar": {
+            "genesisDocument": {
+                "id": "did:btcr2:_",
+                "@context": [
+                    "https://www.w3.org/ns/did/v1.1",
+                    "https://btcr2.dev/context/v1"
+                ],
+                "verificationMethod": [
+                    {
+                        "id": "did:btcr2:_#initialKey",
+                        "type": "Multikey",
+                        "controller": "did:btcr2:_",
+                        "publicKeyMultibase": "zQ3shaeuPf9KMaLRSJH1yMzwavDfvDsVfNMxraCG5bhkFX2Wj"
+                    }
+                ],
+                "authentication": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "assertionMethod": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityInvocation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityDelegation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "service": [
+                    {
+                        "id": "did:btcr2:_#initialP2PKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:mvxHBzdQt6Nn7Zjw8ASwog92n4h7dfpM5j"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2WPKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1q492q7x0aqf7tznwmsn2hxjzch26vaqcjgycv8y"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2TR",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1pcqnjzah5fvkascu2vwfrhuw4mnga68gc0skn4tsgx5hmvhlmucjsywwqk9"
+                    },
+                    {
+                        "id": "did:btcr2:_#cohortBeacon",
+                        "type": "SMTBeacon",
+                        "serviceEndpoint": "bitcoin:tb1q30rqk3rxh53p3q4l7wqrlzsmy9gv3uh4v5d2ta"
+                    }
+                ]
+            },
+            "updates": [
+                {
+                    "@context": [
+                        "https://w3id.org/json-ld-patch/v1",
+                        "https://w3id.org/zcap/v1",
+                        "https://w3id.org/security/data-integrity/v2",
+                        "https://btcr2.dev/context/v1"
+                    ],
+                    "patch": [
+                        {
+                            "op": "add",
+                            "path": "/service/4",
+                            "value": {
+                                "id": "#dwn",
+                                "type": "DecentralizedWebNode",
+                                "serviceEndpoint": "http://example.com/dwn"
+                            }
+                        }
+                    ],
+                    "targetHash": "RTs6Ctt0zb_QFxUIUUre1TqhlpCVTCs_shkiX5uC3O0",
+                    "targetVersionId": 2,
+                    "sourceHash": "UvuqYHyvUFV5OP71jE0rfnBbbifPwlaDDl1eFKZwmQ4",
+                    "proof": {
+                        "@context": [
+                            "https://w3id.org/json-ld-patch/v1",
+                            "https://w3id.org/zcap/v1",
+                            "https://w3id.org/security/data-integrity/v2",
+                            "https://btcr2.dev/context/v1"
+                        ],
+                        "cryptosuite": "bip340-jcs-2025",
+                        "type": "DataIntegrityProof",
+                        "verificationMethod": "did:btcr2:x1qxqfmajnpsh6elpm9wt6pjqvl55gdrnzg5yvn5rftd7rghm28j8dyrt2y4k#initialKey",
+                        "proofPurpose": "capabilityInvocation",
+                        "capability": "urn:zcap:root:did%3Abtcr2%3Ax1qxqfmajnpsh6elpm9wt6pjqvl55gdrnzg5yvn5rftd7rghm28j8dyrt2y4k",
+                        "capabilityAction": "Write",
+                        "proofValue": "z35tLXGVXZpqNBpKB3H2s98oSBH1BRmeMAt1Q5wBgKXHcyqg92rQKV5ULoUvAWtzcqDU5YYwVPJaaReVGxTks2mut"
+                    }
+                }
+            ],
+            "smtProofs": [
+                {
+                    "id": "tF_Go2cofygvxxD8a11iMoIqkJR4axX1fFYEPedos-s",
+                    "collapsed": "f_________________________________________8",
+                    "hashes": [
+                        "EXNUA2yhxZULCwV4ntbvxgDQVLc7L98zRq68JTfN4lw"
+                    ],
+                    "nonce": "Y29C79WPjehmHTK3LQhUWtNLotfn-153_79r2P8jGlg",
+                    "updateId": "goaWhjSY9f2dve0fbYnFbx56FVgVYUVTL0T8TflSMeM"
+                }
+            ]
+        }
+    }
+}

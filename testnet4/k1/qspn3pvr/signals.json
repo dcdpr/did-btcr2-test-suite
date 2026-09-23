@@ -1,0 +1,26 @@
+[
+    {
+        "update": 1,
+        "beaconId": "did:btcr2:k1qspn3pvrjemg66qm6n3nxavk49lxa2ylk84w0g85afxc7rfx4g4vwqqfz9ws6#initialP2WPKH",
+        "address": "tb1qs674r3xfljrwaug4ptv9xgp58u843xktx9dqe7",
+        "txid": "1d96b96c0f391795fcc3f85b0f7dd2b9a11b2056fc962f70e7d906fcb4d04a21",
+        "blockHeight": 153713,
+        "blockHash": "0000000000000001ff90c41204084eebe76040e37cea769ebf8b234f8a47d741",
+        "blockTime": 1790189159,
+        "mediantime": 1790189159,
+        "signalBytes": "45734ce9ca648a8eb8fc2a288afca1f51c718f7898a1e84cdb26a3b6d1a58e4b",
+        "recordedTip": 153720
+    },
+    {
+        "update": 2,
+        "beaconId": "did:btcr2:k1qspn3pvrjemg66qm6n3nxavk49lxa2ylk84w0g85afxc7rfx4g4vwqqfz9ws6#lateBeacon",
+        "address": "tb1q74tywvrarmmeq3y2j8ejt0g5nsfjl0xzm05a5z",
+        "txid": "d67203bc1081d108d382ed8f1acb05be4d76413c8666a7a7ceffd1d26308f045",
+        "blockHeight": 153702,
+        "blockHash": "00000000000000032cd30d3a5098319ee5027fdb323f0f0014ec033415b97024",
+        "blockTime": 1790183153,
+        "mediantime": 1790183153,
+        "signalBytes": "a0830ab2ed5756bfa59a44321298988b4be0fe259b9fc755ce8b5677ce2641a8",
+        "recordedTip": 153720
+    }
+]

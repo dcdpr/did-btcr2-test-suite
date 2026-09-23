@@ -1,0 +1,56 @@
+{
+    "did": "did:btcr2:x1qnr6s8cg0ljl9ql252jqezvh6rv3thgav37grw5xa0ehpx6gheycwhgxuh0",
+    "resolutionOptions": {
+        "sidecar": {
+            "genesisDocument": {
+                "id": "did:btcr2:_",
+                "@context": [
+                    "https://www.w3.org/ns/did/v1.1",
+                    "https://btcr2.dev/context/v1"
+                ],
+                "verificationMethod": [
+                    {
+                        "id": "did:btcr2:_#initialKey",
+                        "type": "Multikey",
+                        "controller": "did:btcr2:_",
+                        "publicKeyMultibase": "zQ3shg4zqSSvaLVyiWPkSZwsdeRbuMrBL8iqLyfToR2JNkSbt"
+                    }
+                ],
+                "authentication": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "assertionMethod": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityInvocation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "capabilityDelegation": [
+                    "did:btcr2:_#initialKey"
+                ],
+                "service": [
+                    {
+                        "id": "did:btcr2:_#initialP2PKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:mm53gM9PY7wK1iQxVVzKiC4SrzZGRcARmS"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2WPKH",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1q8n4x7vdxq8ak20p0ks5yeyv23qwqtk9yenqrgv"
+                    },
+                    {
+                        "id": "did:btcr2:_#initialP2TR",
+                        "type": "SingletonBeacon",
+                        "serviceEndpoint": "bitcoin:tb1p3k5e4g8ntkm6cg0gmjx3xjrl4nhjtujnu7lvj9mdqcw90t3q246svvag3m"
+                    },
+                    {
+                        "id": "did:btcr2:_#didcomm",
+                        "type": "DIDCommMessaging",
+                        "serviceEndpoint": "http://example.com/didcomm"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "scenarioId": "13-k1-update-p2wpkh",
+    "genesisKeys": {
+        "secret": "cb3a24c58b0338a03966d83d99834c4a7a8bbfa5db321d3916c6ab0d710c9515",
+        "public": "0260c86f334bef955600ee70fea192240634c3d049d318041f90f596faa9ed85d0"
+    }
+}

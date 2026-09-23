@@ -1,0 +1,68 @@
+{
+    "didResolutionMetadata": {
+        "contentType": "application/did"
+    },
+    "didDocument": {
+        "id": "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et",
+        "@context": [
+            "https://www.w3.org/ns/did/v1.1",
+            "https://btcr2.dev/context/v1"
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialKey",
+                "type": "Multikey",
+                "controller": "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et",
+                "publicKeyMultibase": "zQ3shQrb5JVbvy2AFVSaf4N4m9348nuHEmLE4bjgdZpH7ogd7"
+            }
+        ],
+        "authentication": [
+            "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialKey"
+        ],
+        "assertionMethod": [
+            "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialKey"
+        ],
+        "capabilityInvocation": [
+            "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialKey"
+        ],
+        "capabilityDelegation": [
+            "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialKey"
+        ],
+        "service": [
+            {
+                "id": "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialP2PKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:n38ComRAhQbwYWrj2x5ijddBkhLKEojo1D"
+            },
+            {
+                "id": "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialP2WPKH",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:bcrt1qa5z4q7nj6t8ld2s9sj3q85vn0y0yzcgq5mawre"
+            },
+            {
+                "id": "did:btcr2:x1qg4zny9hzqfyvxtp6wr33k9n33kwkxujrs3n9z6k3mlq7ah93wwtqp3v2et#initialP2TR",
+                "type": "SingletonBeacon",
+                "serviceEndpoint": "bitcoin:bcrt1pepddlaqd9hqsk9tfsuwcvxnlssmem4wyzlvsy3vp52tesfv5huusmtzkux"
+            },
+            {
+                "id": "#didcomm",
+                "type": "DIDCommMessaging",
+                "serviceEndpoint": "http://example.com/didcomm"
+            },
+            {
+                "id": "#dwn",
+                "type": "DecentralizedWebNode",
+                "serviceEndpoint": "http://example.com/dwn"
+            }
+        ],
+        "alsoKnownAs": [
+            "https://example.com/alias"
+        ]
+    },
+    "didDocumentMetadata": {
+        "versionId": "4",
+        "confirmations": 276,
+        "updated": "2026-09-16T15:22:58Z",
+        "deactivated": false
+    }
+}
